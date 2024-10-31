@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    "MM ",
+    "   "
+  ],
+  "key": {
+    "M":"minecraft:melon_slice"
+  },
+  "result": {
+    "id": "firstmod:moldy_bryce",
+    "count": 1
+  }
+}
