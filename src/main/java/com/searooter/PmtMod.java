@@ -1,5 +1,7 @@
 package com.searooter;
 
+import com.searooter.item.ModItemGroups;
+import com.searooter.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

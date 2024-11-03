@@ -1,5 +1,6 @@
-package com.searooter;
+package com.searooter.item;
 
+import com.searooter.PmtMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
