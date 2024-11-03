@@ -18,7 +18,7 @@ public class ModItems {
     public static final Item MOLDY_BRYCE = register("moldy_bryce", Item::new, new Item.Settings());
 
     public static Item register(String path, Function<Item.Settings, Item> factory, Item.Settings settings) {
-        final RegistryKey<Item> registryKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of("firstmod", path));
+        final RegistryKey<Item> registryKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of("pmtmod", path));
         return Items.register(registryKey, factory, settings);
     }
 

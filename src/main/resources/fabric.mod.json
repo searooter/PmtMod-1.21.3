@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "firstmod",
+	"id": "pmtmod",
 	"version": "${version}",
-	"name": "FirstMod",
+	"name": "pmtmod",
 	"description": "This is searooters first mod. Just testing stuff.",
 	"authors": [
 		"searooter"
@@ -12,20 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/firstmod/icon.png",
+	"icon": "assets/pmtmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.searooter.FirstMod"
+			"com.searooter.PmtMod"
 		],
 		"client": [
-			"com.searooter.FirstModClient"
+			"com.searooter.PmtModClient"
 		]
 	},
 	"mixins": [
-		"firstmod.mixins.json",
+		"pmtmod.mixins.json",
 		{
-			"config": "firstmod.client.mixins.json",
+			"config": "pmtmod.client.mixins.json",
 			"environment": "client"
 		}
 	],
